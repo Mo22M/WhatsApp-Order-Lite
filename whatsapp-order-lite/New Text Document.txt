@@ -1,0 +1,51 @@
+=== WhatsApp Order Lite ===
+Contributors: Edigitalstore
+Tags: whatsapp, woocommerce, order, vendor, shop, button
+Requires at least: 5.0
+Tested up to: 6.5
+Stable tag: 1.1
+Requires PHP: 7.4
+License: GPL2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A lightweight WooCommerce plugin that adds an "Order via WhatsApp" button to product pages, allowing vendors to set their own WhatsApp numbers during registration or from their account page. Fully compatible with vendor plugins like Dokan.
+
+== Description ==
+
+- Adds an "Order via WhatsApp" button to each WooCommerce product.
+- Allows each vendor to set a personal WhatsApp number.
+- Supports custom registration fields for vendors (Shop Name and WhatsApp Number).
+- Fully compatible with WooCommerce and Dokan.
+- Vendors can update their WhatsApp number from their profile or vendor dashboard.
+- Shows an alert to vendors if no WhatsApp number is set.
+- Fallback to a default WhatsApp number if vendor’s number is missing.
+
+== Installation ==
+
+1. Download the plugin ZIP file (`whatsapp-order-lite.zip`).
+2. In your WordPress dashboard, go to: Plugins → Add New → Upload Plugin.
+3. Select the ZIP file and click "Install Now".
+4. Activate the plugin after installation.
+
+== Setup ==
+
+1. Go to **WhatsApp Order** in the WordPress admin menu to manage vendor details (Shop Name & WhatsApp Number).
+2. Ensure vendors add their WhatsApp number via their account page or vendor dashboard.
+3. You can set a default WhatsApp number in the plugin code if no number is provided.
+
+== Support ==
+
+For inquiries or technical support, please contact:  
+📧 Edigitalstore467@gmail.com
+
+== Compatibility ==
+
+- Tested with: WordPress 5.0 to 6.5  
+- WooCommerce 6.0 to 9.0  
+- PHP 7.4 to 8.2  
+
+== Changelog ==
+
+= 1.1 =
+- Improved saving of custom registration fields.
+- Added support for conditional display of the WhatsApp field for vendors.
